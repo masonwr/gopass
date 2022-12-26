@@ -3,8 +3,7 @@ module github.com/gopasspw/gopass
 go 1.16
 
 require (
-	filippo.io/age v1.0.0-rc.3
-	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
+	filippo.io/age v1.1.1
 	github.com/atotto/clipboard v0.1.4
 	github.com/blang/semver/v4 v4.0.0
 	github.com/caspr-io/yamlpath v0.0.0-20200722075116-502e8d113a9b
@@ -42,11 +41,11 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/urfave/cli/v2 v2.3.0
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
-	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
+	golang.org/x/crypto v0.4.0
+	golang.org/x/net v0.3.0
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
-	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf
-	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
+	golang.org/x/sys v0.3.0
+	golang.org/x/term v0.3.0
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
